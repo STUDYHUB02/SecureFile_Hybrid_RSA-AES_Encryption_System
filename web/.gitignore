@@ -1,0 +1,53 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Web
+web/dist/
+web/.vite/
+web/.env
+web/.env.local
+
+# Data
+data/tmp/
+data/keys/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+*.test
+test_*
+
+# Temporary files
+*.enc
+*.key
+*.tag
+*.iv
+encrypted_*
+decrypted_*
+
