@@ -57,3 +57,7 @@ web/
 - RSA-OAEP for key wrapping
 - AES-256-GCM or AES-256-CBC for file encryption
 - SHA-256 for integrity verification
+
+# Contributors
+
+1. Saahil Vishwakarma
